@@ -1,0 +1,27 @@
+body {
+  transition: 0.7s;
+}
+.content-box {
+  /* border: 1px solid gray; */
+  box-shadow: 4px 4px 8px gray;
+  border-radius: 5px;
+  font-size: 20px;
+}
+#add-button:hover {
+  background-color: blue;
+  color: white;
+}
+.delete-button {
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 10px;
+}
+.done-button {
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 10px;
+}

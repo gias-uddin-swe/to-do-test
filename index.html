@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom</title>
+    <!-- Bootstrap cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+
+    <!-- link css file   -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="container mt-5">
+    <h1 id="title" class="text-center">To Do List</h1>
+    <div class="input-box w-50 m-auto">
+      <div class="input-group mt-5">
+        <!-- <textarea class="form-control" aria-label="With textarea"></textarea> -->
+        <input id="input-box" type="text" class="form-control border" />
+        <!-- <span class="input-group-text">Add Items</span> -->
+        <button id="add-button" class="btn border">Add Items</button>
+      </div>
+    </div>
+
+    <div class="content-box text-center mt-5">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Number</th>
+            <th scope="col">Description</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody id="table-content"></tbody>
+      </table>
+    </div>
+
+    <div class="clear-all-container mt-5 text-center">
+      <button class="text-center btn btn-danger" id="clear-all">
+        Clear All XX
+      </button>
+    </div>
+
+    <!-- add script file here  -->
+    <script src="./app.js"></script>
+  </body>
+</html>
